@@ -43,7 +43,7 @@ function move(){
 	function frame(){
 		if(stepValue >= 100){
 			clearInterval(id);
-			window.location.href = 'SuccessPage_en.html';
+			window.location.href = 'SuccessPage_zh.html';
 		}else{
 			elem.style.width = (stepValue + 10) + "%";
 			elem.innerHTML = (stepValue + 10) + "%";
@@ -52,11 +52,11 @@ function move(){
 	}
 
 	function checkLocation(){
-		if(currentLocation!= 'Location'){
+		if(currentLocation!= '地点'){
 			return true;
 		}
 		else{
-			alert("Did not choose location!");
+			alert("未选择连接节点！");
 			return false;
 		}
 	}
