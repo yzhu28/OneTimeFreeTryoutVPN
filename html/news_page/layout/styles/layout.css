@@ -29,6 +29,7 @@ a{outline:none; text-decoration:none; color:#059BD8; background-color:#FFFFFF;}
 
 .fl_left, .imgl{float:left;}
 .fl_right, .imgr{float:right;}
+.toend{justify-content: flex-end;}
 
 img{display:block; margin:0; padding:0; border:none;}
 .imgl, .imgr{border:1px solid #C7C5C8; padding:5px;}
