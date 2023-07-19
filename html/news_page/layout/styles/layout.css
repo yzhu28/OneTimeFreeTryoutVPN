@@ -35,7 +35,7 @@ img{display:block; margin:0; padding:0; border:none;}
 .imgl, .imgr{border:1px solid #C7C5C8; padding:5px;}
 .imgl{margin:0 8px 8px 0; clear:left;}
 .imgr{margin:0 0 8px 8px; clear:right;}
-.centerimg{display: flex; justify-content: center; align-items: center; height: 50vh;}
+.centerimg{display: flex; justify-content: center; align-items: center; height: 50vh; margin: 50px 10px;}
 
 /* ----------------------------------------------Wrapper------------------------------------- */
 
@@ -63,7 +63,7 @@ div.wrapper p{font-family: 'Times New Roman', Times, serif; font-size: 24px; fon
 
 #header{padding:2px 0 20px 0;}
 #header .fl_left{display:block; float:left; margin-top:7px; overflow:hidden;}
-#header .fl_right{display:block; float:right; width:468px; height:60px; margin-top:21px; overflow:hidden;}
+#header .fl_right{display:block; float:right; margin-top:21px; overflow:hidden;}
 #header h1, #header p, #header ul{margin:0; padding:0; list-style:none; line-height:normal;}
 #header h1 a{font-size:46px; color:#999999; background-color:#FFFFFF;}
 #header h1 strong{font-weight:normal; color:#059BD8; background-color:#FFFFFF;}
@@ -143,6 +143,20 @@ div.wrapper p{font-family: 'Times New Roman', Times, serif; font-size: 24px; fon
 #hpage_latest li.last{margin-right:0;}
 #hpage_latest img{margin:0; padding:4px; border:1px solid #C7C5C8;}
 #hpage_latest .readmore{font-weight:bold; text-align:right;}
+
+.button {
+    border: none;
+    color: white;
+    padding: 25px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button1 {background-color: #008CBA;} /* Blue */
 
 /* ----------------------------------------------Footer------------------------------------- */
 

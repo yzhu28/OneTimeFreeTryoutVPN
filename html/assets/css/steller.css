@@ -11061,7 +11061,8 @@ pre {
 }
 
 .btn.w-lg {
-  min-width: 160px;
+  min-width: 280px;
+  font-size: 24px;
 }
 
 .img-wrapper {
