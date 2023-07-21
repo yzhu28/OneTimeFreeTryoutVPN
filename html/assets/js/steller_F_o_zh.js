@@ -43,7 +43,7 @@ function move(){
 	function frame(){
 		if(stepValue >= 100){
 			clearInterval(id);
-			window.location.href = 'FailPage_zh.html';
+			window.location.href = 'FailPage_o_zh.html';
 		}else{
 			elem.style.width = (stepValue + 10) + "%";
 			elem.innerHTML = (stepValue + 10) + "%";
