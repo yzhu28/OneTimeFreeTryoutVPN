@@ -43,7 +43,7 @@ function move(){
 	function frame(){
 		if(stepValue >= 100){
 			clearInterval(id);
-			window.location.href = 'SuccessPage_en.html';
+			window.location.href = 'SuccessPage_o_en.html';
 		}else{
 			elem.style.width = (stepValue + 10) + "%";
 			elem.innerHTML = (stepValue + 10) + "%";
